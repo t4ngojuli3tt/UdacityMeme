@@ -16,7 +16,15 @@ PDF parser use pdftotext command application, this could be install on Linux
 ```bash
 sudo apt-get install libpoppler-dev
 ```
-
+## Run
+To run console app:
+```bash
+python meme.py
+```
+to run flask app:
+```bash
+python app.py
+```
 ## Description 
 This application is spilted into: 
 - QuoteEngine - module that handels parsing quotes from various type of files. It contains QuoteModel class to build quotes objects,
